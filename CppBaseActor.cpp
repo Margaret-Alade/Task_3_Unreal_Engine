@@ -30,10 +30,9 @@ void ACppBaseActor::ShowInformation()
     UE_LOG(LogTemp, Display, TEXT("CppBase is here"));
     UE_LOG(LogTemp, Warning, TEXT("CppBase класс ошибся"));
     UE_LOG(LogTemp, Error, TEXT("CppBase класс очень сильно ошибся"));
-
 	UE_LOG(LogTemp, Display, TEXT("ObjectName: %s"), *ObjectName);
 	UE_LOG(LogTemp, Display, TEXT("EnemyNum: %d"), EnemyNum);
-	UE_LOG(LogTemp, Display, TEXT("IsAlive: %i"), IsAlive);|
+	UE_LOG(LogTemp, Display, TEXT("IsAlive: %i"), IsAlive);
     
 }
 
